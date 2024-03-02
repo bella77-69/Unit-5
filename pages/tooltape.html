@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles-cheat.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- <link rel="stylesheet" href="../css/styles-custom.css"> -->
+    <!-- <link rel="stylesheet" href="./css/style-border.css"> -->
+
+    <title>Assignment Three</title>
+</head>
+
+<body>
+   
+        <nav class="navbar navbar-full text-md-center">
+            <div class="brand-wrapper">
+                <img src="../assets/logo/retro.png" alt="RetroNineties" class="navbar-brand">
+                <!-- <div class="navbar-text">RetroNineties</div> -->
+             
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#menu">
+                &#9776;
+            </button>
+        </div>
+
+            <div class="collapse navbar-toggleable-xs" id="menu">
+                <ul class="nav nav-responsive">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./accordion.html">Accordion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./carousel.html">Carousel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./tooltape.html">ToolTape</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./pages/custom.html">Trivia</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header">Back in the 90s</div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item active" href="./pages/custom.html">Music</a>
+                            <a class="dropdown-item" href="./pages/customCss.html">Movies
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div><!--toggle-->
+        </nav>
+        <div class="container">
+        <div class="row">
+            <div class="container">
+                <br>
+                <br>
+                <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="This text
+                appears in your tooltip">
+                Button
+                </button>
+         
+                <button type="button" class="btn" data-toggle="tooltip" data-placement="left" title="This text
+                appears in your tooltip">
+                Button
+                </button>
+                    <button type="button" class="btn" data-toggle="tooltip" data-placement="left"
+                    title="This is a tooltip!">Tooltip Top</button>
+                    <button type="button" class="btn" data-toggle="tooltip" data-placement="right"
+                    title="This is a tooltip!">Tooltip Top</button>
+            </div><!--container-->
+
+
+        </div><!--row-->
+    </div><!--container-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/tether.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/docs.min.js"></script>
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+        </script>
+</body>
+
+</html>
