@@ -2,128 +2,263 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/bootstrap.css">
-  <link rel="stylesheet" href="../css/styles-cheat.css">
-  <link rel="stylesheet" href="../css/responsive.css">
-  <link rel="stylesheet" href="../css/styles-custom.css">
-  <!-- <link rel="stylesheet" href="./css/style-border.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles-cheat.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/styles-custom.css">
+    <!-- <link rel="stylesheet" href="./css/style-border.css"> -->
 
-  <title>Assignment Three</title>
+    <title>Milk Clothing</title>
 </head>
 
 <body>
     <nav class="navbar navbar-full text-md-center">
         <div class="brand-wrapper">
-            <img src="../assets/logo/retro.png" alt="RetroNineties" class="navbar-brand">
+            <img src="../assets/logo/fashion.png" alt="RetroNineties" class="navbar-brand">
             <!-- <div class="navbar-text">RetroNineties</div> -->
-         
-        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#menu">
-            &#9776;
-        </button>
-    </div>
 
-      <div class="collapse navbar-toggleable-xs" id="menu">
-        <ul class="nav nav-responsive">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./accordion.html">Accordion</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./carousel.html">Carousel</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./tooltape.html">ToolTape</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./pages/custom.html">Trivia</a>
-            <div class="dropdown-menu">
-                <div class="dropdown-header">Back in the 90s</div>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item active" href="./pages/custom.html">Music</a>
-                <a class="dropdown-item" href="./pages/customCss.html">Movies
-                </a>
-            </div>
-        </li>
-        </ul>
-      </div><!--toggle-->
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#menu">
+                &#9776;
+            </button>
+        </div>
+
+        <div class="collapse navbar-toggleable-xs" id="menu">
+            <ul class="nav nav-responsive">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./accordion.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./carousel.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./tooltape.html">ToolTape</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./custom.html">Sale</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-header">Last Chance</div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./music.html">Clothing</a>
+                        <a class="dropdown-item" href="./movies.html">Accessories
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div><!--toggle-->
     </nav>
-    <div class="container">
-    <div class="row">
-        <button type="button" class="btn" data-toggle="collapse"
-        data-target="#collapse">Collapse</button>
-    <div class="collapse" id="collapse">
-        <div class="card card-block">
-            <h2>Collapse</h2>
-            <p>Collapsible content example</p>
-        </div><!--card -->
+    <div class="container main">
+        <div class="row">
+            <br>
+            <!-- <div class="col-sm-6">
+                <button type="button" class="btn" data-toggle="modal" data-target="#modal">Modal</button>
 
-    </div><!--collapse -->
+                <div class="modal fade" id="modal">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">Modal Title</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>Modal Body</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
 
-
-    <br>
-    <br>
-    <div id="accordion">
-        <div class="panel">
-            <div class="panel-heading">
-
-                <a href="#" data-toggle="collapse" data-target="#accordion3211"
-                    data-parent="#accordion">Accordion
-                    Accordion One</a>
-
-            </div><!--panel-heading -->
-
-            <div class="collapse in" id='accordion3211' class="panel-collapse collapse in">
-
-                <p>Accordion One Content</p>
-            </div><!--panel-collapse -->
-        </div><!--panel -->
-
-        <div class="panel">
-            <div class="panel-heading">
-
-                <a href="#" data-toggle="collapse" data-target="#accordion3212"
-                    data-parent="#accordion">Accordion
-                    Accordion Two</a>
-
-            </div><!--panel-heading -->
-
-            <div class="collapse" id='accordion3212' class="panel-collapse collapse in">
-
-                <p>Accordion One Content</p>
-            </div><!--panel-collapse -->
-        </div><!--panel -->
-
-        <div class="panel">
-            <div class="panel-heading">
-
-                <a href="#" data-toggle="collapse" data-target="#accordion3213"
-                    data-parent="#accordion">Accordion
-                    Accordion Three</a>
-
-            </div><!--panel-heading -->
-
-            <div class="collapse" id='accordion3213' class="panel-collapse collapse in">
-
-                <p>Accordion One Content</p>
-            </div><!--panel-collapse -->
-        </div><!--panel -->
-
-    </div><!--accordion -->
-</div><!--row -->
-</div><!--container -->
+                    </div>
+                </div>
+            </div> -->
 
 
 
+            <div class="container">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 col-xl-offset-1">
+                            <!-- Breadcrumbs -->
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                                    <li class="breadcrumb-item active"><a href='./accordion.html'>Shop</a></li>
+                                </ol>
+                            </nav><!--breadcrumb -->
+                            <h1 class="h1 text-md-center">Milk Clothing</h1>
+                            <hr>
+
+                            <div class="col-xs-8 col-xs-push-2 col-sm-6 col-sm-push-0 col-md-6 col-lg-5 col-xl-5 col-xl-push-0">
+                                <br>
+                                <img src="../assets/images/fashion.png" alt="90s" class="img-fluid" width="400"
+                                    height="350">
+                            </div><!--col -->
+
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-5 col-xl-push-1">
+                                <br>
+                                <h2 class="text-xs-center text-md-left">Discover Your Style at Milk Clothing</h2>
+                            </div><!--col -->
+
+                        </div><!--col -->
+
+                    </div><!--row -->
+                </div><!--jumbotron -->
+            </div><!--container -->
+
+            <div class="clearfix hidden-md-up"></div>
+
+
+
+
+
+            <!-- Repeat the structure for additional products -->
+
+        </div><!--col-->
+        <div class="col-xs-12 col-sm-13 col-md-14 col-lg-10 col-lg-push-1 col-xl-14">
+            <!-- Product 1 -->
+            <div class="accordion" id="productAccordion1">
+                <div class="card">
+                    <img src="../assets/images/fashion1.png" alt="Product 1" class="img-fluid">
+                    <div class="card-block ">
+                        <h3 class="card-title">Fashion Sweater</h3>
+                    </div>
+                    <div class="card-header" id="productHeading1">
+                        <h2>
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#productCollapse1" aria-expanded="true" aria-controls="productCollapse1">
+                                Fashion Sweater
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="productCollapse1" class="collapse" aria-labelledby="productHeading1"
+                        data-parent="#productAccordion1">
+                        <div class="card-body">
+                            <p>Fashion Sweater details.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion" id="productAccordion2">
+                <div class="card">
+                    <img src="../assets/images/fashion2.png" alt="Product 2" class="img-fluid">
+                    <div class="card-header" id="productHeading2">
+                        <h2>
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#productCollapse2" aria-expanded="true" aria-controls="productCollapse2">
+                                Fashion Shoes
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="productCollapse2" class="collapse" aria-labelledby="productHeading2"
+                        data-parent="#productAccordion2">
+                        <div class="card-body">
+
+                            <p>Fashion Shoes details...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion" id="productAccordion3">
+                <div class="card">
+                    <img src="../assets/images/fashion3.png" alt="Product 3" class="img-fluid">
+                    <div class="card-header" id="productHeading3">
+                        <h2>
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#productCollapse3" aria-expanded="true" aria-controls="productCollapse3">
+                                Fashion Pants
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="productCollapse3" class="collapse" aria-labelledby="productHeading3"
+                        data-parent="#productAccordion3">
+                        <div class="card-body">
+
+                            <p>Fashion Pants details...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!--col-->
+
+        <div class="col-xs-12 col-md-7 col-lg-8 col-lg-push-0 col-xl-8">
+            <div id="accordion">
+                <div class="panel">
+                    <div class="panel-heading">
+
+                        <a href="#" data-toggle="collapse" data-target="#accordion3211"
+                            data-parent="#accordion">Accordion
+                            Accordion One</a>
+
+                    </div>
+
+                    <div class="collapse in" id='accordion3211' class="panel-collapse collapse in">
+
+                        <p>Accordion One Content</p>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-heading">
+
+                        <a href="#" data-toggle="collapse" data-target="#accordion3212"
+                            data-parent="#accordion">Accordion
+                            Accordion Two</a>
+
+                    </div>
+
+                    <div class="collapse" id='accordion3212' class="panel-collapse collapse in">
+
+                        <p>Accordion One Content</p>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-heading">
+
+                        <a href="#" data-toggle="collapse" data-target="#accordion3213"
+                            data-parent="#accordion">Accordion
+                            Accordion Three</a>
+
+                    </div>
+
+                    <div class="collapse" id='accordion3213' class="panel-collapse collapse in">
+
+                        <p>Accordion One Content</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div><!--col-->
     </div><!--row-->
-  </div><!--container-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
+    </div><!--container-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="../assets/logo/fashion.png" alt="Milk Clothing Logo" class="footer-logo">
+                    <p>&copy; 2024 Milk Clothing. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <div class="contact-info">
+                        <h4>Contact Us</h4>
+                        <p>Email: info@milkclothing.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>
