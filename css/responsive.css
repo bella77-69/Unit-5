@@ -10,6 +10,7 @@
     .nav {
         padding: 0;
     }
+
     .brand-wrapper {
         display: block;
     }
@@ -20,9 +21,7 @@
         flex-direction: row;
         justify-content: flex-end;
     }
-
 }
-
 
 @media (min-width:768px) {
     .brand-wrapper {
@@ -31,6 +30,10 @@
 
     .nav-responsive {
         margin-right: 1rem;
+    }
+
+    .custom-col {
+        margin-top: 4.5rem;
     }
 }
 

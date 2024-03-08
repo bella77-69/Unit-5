@@ -1,10 +1,5 @@
 body {
-    /* background-image: url('../assets/images/back.jpg'); */
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: 'Lato', Arial, sans-serif;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,7 +13,6 @@ p {
   }
 hr {
     border: 1.5px solid #fefefe;
-
 }
 
 .h1 {
@@ -43,26 +37,45 @@ small {
     color: #000000;
     font-size: .875rem;
     font-weight: 600;
-
 }
 
-label {
-    color: #1a2a46;
-    font-size: 1rem;
+/* carousel styles */
+.carousel-caption h3 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.carousel-caption p {
     font-weight: 500;
+    color: #ffffff;
 }
 
-option {
-    color: #1a2a46;
-    font-size: 1rem;
-    font-weight: 500;
+.icon {
+    color: #ffffff;
 }
 
+/* card styles */
+.card {
+    border: none;
+}
+
+.card-list {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.shop-col {
+    margin: 0;
+    padding: 0;
+}
+
+/* breadcrumb styles */
 .breadcrumb {
     background-color: #9ab6db;
     color: #010101;
     padding: 1rem;
     border-radius: 5px;
+    margin: 0;
 }
 
 .breadcrumb a {
@@ -78,9 +91,10 @@ option {
 }
 
 .breadcrumb-item.active {
-    color: #7e99c4;
+    color: #ffffff;
 }
 
+/* button styles */
 .btn {
     background-color: #6b829e;
     color: #000000;
@@ -97,6 +111,19 @@ option {
     color: #ffffff;
 }
 
+/* table styles */
+.table {
+    color: #000000;
+    background-color: #9ab6db;
+}
+
+.table th {
+    color: #000000;
+}
+
+.table td {
+    color: #000000;
+}
 
 /* footer */
 .footer {
@@ -117,3 +144,4 @@ option {
     background: #7a8fae;
     color: #000000;
 }
+
